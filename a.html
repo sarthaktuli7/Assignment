@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Distance To Time Calculator</h1>
+        <input type="number" id="distance" placeholder="Enter Distance (in KM)">
+        <select id="vehicle-dropdown">
+            <option value="Maruti Suzuki Alto">Maruti Suzuki Alto</option>
+            <option value="Hyundai i20">Hyundai i20</option>
+            <option value="Tata Nexon">Tata Nexon</option>
+            <option value="Honda City">Honda City</option>
+            <option value="Mahindra Thar">Mahindra Thar</option>
+            <option value="Toyota Innova Crysta">Toyota Innova Crysta</option>
+            <option value="Kia Seltos">Kia Seltos</option>
+            <option value="Renault Kwid">Renault Kwid</option>
+            <option value="Ford EcoSport">Ford EcoSport</option>
+            <option value="Tata Tiago">Tata Tiago</option>
+        </select>
+        <button id="calculate-distance-btn" class="styled-button">Calculate</button>
+        <button id ="calculate-distance-btn" class="styled-button" onclick="location.href='index.html'">Home</button>
+        
+        <p id="time-result"></p>
+        <p id="fuel-result"></p>
+        <p id="range-result"></p>
+        <div id="comparison-result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
